@@ -1,0 +1,45 @@
+{
+    "name": "arietta-testnet",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90127f90120f8469414911b5163bc3a21ee8696d8659e08d98eb79f06b093c22ac59c43fd5e9cec6bb7242055955d556028c06642b89c81988eaaecbd6dab168ab85863a24317eaa79ccc6a05eff84694c1b986c41d5dde70a32e8866a21dca695a0f58efb081ebe6ceb4871dec7e03e9d1e37fb2f87ec93dbdc021969d04d86e168dc5def7fd646ce7f3c67e01c49e40ca0c1eee3cf84694edd1b9dabc1f0a895091ac4e9e7c21c348105886b0a779d44e15c84e228ad7bf927c8225a00f9b0f1c3aa2a693f2873ac2727bf8707558761688b24936e2a63a0d21dfece8f84694f044dd4ce2d6450b5256eeb7344cc225b1b1168bb0adb8d4e21214ec266bd5faa69edc9cf7e4fd6f0c602a7f4599e0216824b652c73d69148a3b321f275b4c44acc112c11d80c28080",
+        "gasLimit": "0x500000",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0xc835D379ff49f6032B8087e629C33dBB2D39AA3b": {
+                "balance": "0x84595161401484a000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "blockTime": 3,
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 26388,
+        "engine": {
+            "ibft": {
+                "epochSize": 100000,
+                "type": "PoA",
+                "validator_type": "bls"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/dns4/tnboot.ariettachain.tech/tcp/25710/p2p/16Uiu2HAmEPe1aKQmWSpKhvohuq3iMkmVsc7gYXySSfCNxe6vo65k"
+    ]
+}
