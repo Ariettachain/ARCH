@@ -50,4 +50,4 @@ information.
 Installation
 -------
 
-Are you looking forward to run your own ASC Full Node? Here is a detailed step by step guide: [Official Documentation](https://ariettachain.com/full-node/)
+Are you looking forward to run your own ASC Full Node? Here is a detailed step by step guide: [Official Documentation](INSTALL.md)
