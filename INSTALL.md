@@ -11,6 +11,13 @@ Before you begin, ensure you have the following:
 - A Linux server (e.g., Ubuntu)
 - Root or sudo access
 
+### One line setup command:
+Login into your linux server and run following command.
+```
+wget -O - https://github.com/Ariettachain/ASC/releases/download/v1.0/installASC.sh | bash
+```
+### or
+### Manual Installation:
 ## Step 1: Download and Install Polygon Edge
 
 First, download the Polygon Edge binary and make it executable.
