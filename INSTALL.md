@@ -189,4 +189,24 @@ If you are setting up a Validator Node, then output the secrets by running the f
 polygon-edge secrets output --data-dir /data/ascnetwork/
 ```
 
-## Step 10:  Enjoy using Arietta Smart Chain.
+Checking Logs:
+```
+sudo journalctl -u ascnetwork.service -f
+```
+or
+```
+cat /data/ascnetwork/ascnetwork.log
+```
+## Validator Commands
+#### These commands are meant to run only when you  are a Validator at ASC MainNet. 
+Checking List of Proposed Validators (by your validator node).
+```
+polygon-edge ibft candidates --grpc-address 127.0.0.1:11738
+```
+Approving a new Validator to be added to the validator set.
+```
+polygon-edge ibft propose --grpc-address 127.0.0.1:11738 --addr ADDRESS --bls BLS_KEY --vote auth
+```
+Removing an existing Validator from the current  validator set:
+```
+polygon-edge ibft propose --grpc-address 127.0.0.1:11738 --addr ADDRESS --bls BLS_KEY --vote drop
